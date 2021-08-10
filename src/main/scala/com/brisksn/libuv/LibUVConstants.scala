@@ -21,7 +21,8 @@ object LibUVConstants {
   val UV_UDP_T     = 15 // UDP sockets
 
   // UV_REQ_T
-  val UV_WRITE_REQ_T = 3
+  val UV_WRITE_REQ_T    = 3
+  val UV_SHUTDOWN_REQ_T = 4
 
   val UV_READABLE    = 1
   val UV_WRITABLE    = 2
